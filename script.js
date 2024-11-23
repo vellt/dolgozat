@@ -8,6 +8,6 @@ gomb.addEventListener('click',async function(){
     
     gomb.style.display='none';
 
-    dolgozat.textContent=json.answer=="yes"?"NA NÁ!":"MA NE!";
+    dolgozat.textContent=json.answer=="yes"?"NANÁ!":"MA NE!";
     document.body.style.backgroundImage = `url('${json.image}')`;
 });
